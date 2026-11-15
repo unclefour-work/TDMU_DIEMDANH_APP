@@ -1,0 +1,257 @@
+{
+    "indexes":  [
+                    {
+                        "collectionGroup":  "attendance",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "classId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "timestamp",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "attendance",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "studentId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "checkedAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "attendance",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "studentId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "timestamp",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "attendance_records",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "classId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "checkedAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "attendance_records",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "studentId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "checkedAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "classes",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "isOpen",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "ownerId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "createdAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "classes",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "ownerId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "createdAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "events",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "ownerId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "createdAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "leave_requests",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "status",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "teacherId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "createdAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "notifications",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "studentId",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "createdAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    },
+                    {
+                        "collectionGroup":  "profile_change_requests",
+                        "queryScope":  "COLLECTION",
+                        "fields":  [
+                                       {
+                                           "fieldPath":  "status",
+                                           "order":  "ASCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "createdAt",
+                                           "order":  "DESCENDING"
+                                       },
+                                       {
+                                           "fieldPath":  "__name__",
+                                           "order":  "DESCENDING"
+                                       }
+                                   ],
+                        "density":  "SPARSE_ALL"
+                    }
+                ],
+    "fieldOverrides":  [
+                           {
+                               "collectionGroup":  "students",
+                               "fieldPath":  "maSo",
+                               "ttl":  false,
+                               "indexes":  [
+                                               {
+                                                   "order":  "ASCENDING",
+                                                   "queryScope":  "COLLECTION"
+                                               },
+                                               {
+                                                   "order":  "DESCENDING",
+                                                   "queryScope":  "COLLECTION"
+                                               },
+                                               {
+                                                   "arrayConfig":  "CONTAINS",
+                                                   "queryScope":  "COLLECTION"
+                                               },
+                                               {
+                                                   "order":  "ASCENDING",
+                                                   "queryScope":  "COLLECTION_GROUP"
+                                               }
+                                           ]
+                           },
+                           {
+                               "collectionGroup":  "checkin_sessions",
+                               "fieldPath":  "sessionCode",
+                               "ttl":  false,
+                               "indexes":  [
+                                               {
+                                                   "order":  "ASCENDING",
+                                                   "queryScope":  "COLLECTION_GROUP"
+                                               }
+                                           ]
+                           }
+                       ]
+}
